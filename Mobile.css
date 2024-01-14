@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    
+}
+
+ /* Navbar   Starts   From   Here */
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+a{
+    color: white ;
+    font-size:1.2rem;
+    text-decoration:none;
+}
+
+p{
+    font-size:1.2rem;
+    text-align: justify;
+}
+[class*="col-"]{
+    float:left;
+    padding:10px;
+}
+
+[class*="col-"]{
+    width:100%;
+}
+
+.navbar{
+    background-color:black;
+    padding:1% 7%;
+    text-align: center;
+}
+
+.navbar .nav-logo{
+    text-align:center;
+    width: 10px;
+    height:10px;
+}
+.navbar h1{
+    color:white;
+    margin:0;
+    padding-top:10px;
+}
+
+.navbar-menu{
+    display:flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.navbar-menu a{
+    background-color:#0C6168;
+    border-radius:10px;
+    margin:7px 0px;
+    padding:10px;
+}
+
+.navbar-menu a:hover{
+    background-color:gray;
+    
+}
+.navbar::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+
+    /* Profile  Starts   From   Here */ 
+    
+    
+
+  .profile{
+      padding:5px;
+      position: relative;
+      text-align: center;
+      background-color: #EC7063;
+      color:white;
+  
+  }
+  
+  .profile h1{
+      
+      transition:transform 4s;
+      
+  }
+  
+  .profile h1:hover{
+      transform: rotate(360deg);
+  }
+ /* .profile .welcome{
+      position: absolute;
+      text-align:center;
+      size: 50%;
+  }
+    */
+
+ .profile .profile-desc h1{
+     padding:10px;
+     font-size: 3rem;
+     font-family: Times New Roman;
+     
+ }
+    
+ .profile .profile-desc p{
+     padding:20px;
+     background-color:#F1948A;
+     border-radius:10px;
+     color:black;
+     font-size:1.2rem;
+     width: 90%;
+     text-align:center;
+     margin:0 auto 20px auto;
+     
+ }
+    
+        
+ /* Main Section Starts From Here */  
+    
+.main{
+   
+    padding:50px;
+    display: flex;
+    flex-flow: column;
+    padding:70px;
+    font-size:1.5rem;
+    text-align:center;
+    background-color:#5499C7;
+   
+}    
+.main .btn1{
+    font-size:1.2rem;
+   /* background-color:#5499C7;*/
+    padding: 70px;
+    text-align: center;
+    color:black;
+}
+
+.main .btn2{
+    font-size:1.2rem;
+/*    background-color:*/
+    padding: 70px;
+    text-align: center;
+    border-radius:20px;
+    color:black;
+/*    text-align: bottom;
+    border-radius:20px;*/
+}
+
+.main .btn3{
+    font-size:1.2rem;
+ /*   background-color:#5499C7;*/
+    padding: 70px;
+    text-align: center;
+    border-radius:20px;
+    color:black;
+}
+
+.main .btn4{
+    font-size:1.2rem;
+  /*  background-color:#5499C7;*/
+    padding: 70px;
+    text-align: center;
+    border-radius:20px;
+    color:black;
+}
+
+.main .btn5{
+    font-size:1.2rem;
+  /*  background-color:*/
+    padding: 70px;
+    text-align: center;
+    border-radius:20px;
+    color:black;
+}
+    
+    
+#icon1{
+    font-size: 7rem; 
+/*    padding-inline-end: 10px;*/
+}
+    
+#icon2{
+    text-align:center;
+    font-size: 7rem; 
+}
+
+#icon3{
+    font-size: 7rem; 
+    text-align: center;
+   /* padding-inline-end: 10px;*/
+}
+
+#icon4{
+    
+    font-size: 7rem; 
+    padding-inline-end: 10px;
+}
+
+#icon5{
+    font-size: 7rem; 
+}
+    
+    
+.social{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    background-color:black;
+    text-align: center;
+    padding: 40px;
+}   
+    
+footer{
+    text-align: center;
+    padding:20px;
+    background-color: black;
+    color:white;
+    
+}
+
+
+
+
+    

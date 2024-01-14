@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     
+    <style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin:0%;
+    }
+    
+    @media(min-width:992px){
+        .alleca{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content:center;
+            grid-column-gap: 50px;
+            grid-row-gap:50px;
+        }
+    }
+    .navbar{
+            background-color:black;
+            padding:10px;
+            text-align: center;
+            color: white;
+        }
+        .navbar a{
+             color: white;
+             text-decoration: none;
+             font-size:1.2rem;
+             padding:10px 20px;
+             cursor:pointer;
+             border-inline: white;
+        }
+        .navbar-menu{
+            height:100px;
+            display:inline;
+            position:absolute;
+            height:600px;
+            width: ;
+            right:0px;
+            top:90px;
+           
+        }
+        .navbar-content{
+            position: absolute;
+            top:79px;
+            right:0px;
+            width: 250px;
+            background-color:black;
+            text-align:center;
+            min-width:100px;
+            display:none;
+            
+        }
+       .navbar .nav-heading{
+           padding:10px;
+            text-align: left;
+         /*   position: absolute;*/
+            left:20px;
+       }
+        .navbar-content a{
+            display:block;
+            
+        }
+        .navbar-content a:hover{
+            background-color: gray;
+            
+        }
+        .navbar-menu:hover .navbar-content{
+            display:block;
+        } 
+        
+        .social{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    background-color:black;
+    text-align: center;
+    padding: 40px;
+}   
+
+.social a{
+    color:white;
+}
+    
+footer{
+    text-align: center;
+    padding:20px;
+    background-color: black;
+    color:white;
+    
+}
+        
+        .eca {
+            background-color: #9e0047;
+            color:white;
+            padding-bottom: 100px;
+            padding-top: 70px;
+            text-align:center;
+        }
+        #iconeca{
+            font-size: 6rem;
+        }
+        #un{
+            width:240px;
+            height:200px;
+        }
+        #ai{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+        }
+        #ri{
+            width:200px;
+            height:200px;
+        }
+        #s{
+            width:200px;
+            height:200px;
+        }
+        
+    </style>
+</head>
+<body>
+        
+      <div class="navbar">
+        <div class="nav-heading col-3">
+            <h1>SAIFUL <br>SHAOWN</h1>
+        </div>
+        <div class="navbar-menu col-9">
+            <a href="#"><i class="fa-solid fa-bars fa-2xl"></i></a>
+        <div class="navbar-content">
+            <a href="Portfolio Website.html">Home</a>
+            <a href="about me.html">About Me</a>
+            <a href="skills.html">Skills</a>
+            <a href="#">Contact Me</a>
+        </div>
+        </div>
+      </div>
+      
+      <div class="eca">
+          <h1><i id="iconeca" class="fa-regular fa-circle-notch fa-spin fa-2xl"></i></h1><br>
+          <h2><u>Extra Curricular Activities</u></h2><br><br><br>
+     <div class="alleca">
+       <div><img id="un" src="https://i.postimg.cc/V6KzHjZK/UN-emblem-blue-svg.png" alt="un">
+          <p>Online & Onsite Volunteer at United Nations</p></div><br><br>
+        <div><img id="ai" src="https://i.postimg.cc/kXXXPYW3/amnesty-logo-candle-wire-01-700x373.jpg">
+          <p>Volunteer at Amnesty International</p></div><br><br>
+        <div> <img id="ri" src="https://i.postimg.cc/Qxx5YbtV/rotary-logo.png">
+          <p>Volunteer at Rotary International</p></div><br><br>
+       <div><img id="s"  src="https://i.postimg.cc/G2KtvWvK/Bangladesh-Scouts-Logo.png">
+          <p>Former Scout at Bangladesh Scouts</p></div>
+     </div>
+      </div>
+      
+      <div>
+     <div class="social">
+        <a href="https://www.facebook.com/mdsaifulshaown?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>
+        <a href="https://www.instagram.com/muhammadsaifulshaown?igsh=MWJsY3hlZ2drZHA1dA=="><i class="fa-brands fa-instagram fa-2xl"></i></a>
+        <a href="https://www.linkedin.com/in/md-saiful-islam-156128284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        <a href="mailto:muhammadsaifulislamshaown@gmail.com"><i class="fa-solid fa-envelope-open fa-2xl"></i></a>
+        <a href="https://twitter.com/saiful_shaown"><i class="fa-brands fa-x-twitter fa-2xl"></i></a>
+        <a href="https://github.com/mdsaifulshaown"><i class="fa-brands fa-github fa-2xl"></i></a>
+     </div>
+     
+     <footer>
+         &copy; Developed by SAIFUL ISLAM SHAOWN
+     </footer>
+    
+    </div>
+</body>
+</html>
